@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Burdur 112 Acil Çağrı Merkezi</title>
+    <link rel="icon" href="image/logo.png">
+</head>
+
+<body>
+    <!--ÜstMenü-->
+    <header class="w-100">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">
+                    <img class="me-2" style="width: 60px;" src="image/logo.png">
+                    BURDUR 112 ACİL ÇAĞRI MERKEZİ
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#acilirmenu"
+                    aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="acilirmenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="index.html" class="nav-link fs-5 active">ANASAYFA</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle ms-4 fs-5" href="#" id="navbarDarkDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                MÜDÜRLÜĞÜMÜZ
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-secondary"
+                                aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="vali.html">Vali</a></li>
+                                <li><a class="dropdown-item" href="valiyardimcisi.html">Vali Yardımcısı</a></li>
+                                <li><a class="dropdown-item" href="112muduru.html">112 Müdürü</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a
+                                href="https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=19670&MevzuatTur=7&MevzuatTertip=5"
+                                target="_blank" class="nav-link ms-4 fs-5">MEVZUAT</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle ms-4 fs-5" href="#" id="navbarDarkDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PROJELER
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-secondary"
+                                aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="projeecall.html">eCall</a></li>
+                                <li><a class="dropdown-item" href="projeengelsiz.html">Engelsiz 112</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle ms-4 fs-5" href="#" id="navbarDarkDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                BÜROLAR
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-secondary"
+                                aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="buropersonel.html">Personel ve İdari İşler</a></li>
+                                <li><a class="dropdown-item" href="burobilgiislem.html">Bilgi işlem ve Teknik
+                                        Hizmetler</a></li>
+                                <li><a class="dropdown-item" href="burokalite.html">Kalite Koordinasyon</a></li>
+                                <li><a class="dropdown-item" href="burosatinalma.html">Muhasebe ve Satınalma</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="iletisim.html" class="nav-link ms-4 fs-5">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <style>
+        .sliderresim {
+            max-width: 1200px;
+        }
+
+    </style>
+
+    <!--Gövde-->
+    <div class="w-100 row justify-content-center" style="margin-top: 90px;">
+
+        <!--Slider-->
+        <div class="row p-0 justify-content-center ms-3">
+            <img class="col-md-2 d-none d-md-block" src="image/banner/banner1.png" alt="">
+            <div id="carouselExampleDark"
+                class="carousel carousel-dark slide carousel-fade col-sm-12 col-md-8 sliderresim"
+                data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="image/slide/1.jpg" class="d-block w-100 sliderY sliderresim" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="image/slide/2.jpg" class="d-block w-100 sliderY sliderresim" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/slide/3.jpg" class="d-block w-100 sliderY sliderresim" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <img class="col-md-2 d-none d-md-block" src="image/banner/banner2.png" alt="">
+        </div>
+
+        <!--Duyurular-->
+        <div class="row mt-2 ms-2">
+            <div class="card">
+                <div class="card-header text-center fs-4">DUYURULAR</div>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panel1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panel1acilir" aria-expanded="true" aria-controls="panel1acilir">
+                                16.05.2021 TARİH VE 39 SAYILI İL UMUMİHIFZISSIHHA KURUL KARARI 
+                            </button>
+                        </h2>
+                        <div id="panel1acilir" class="accordion-collapse collapse show" aria-labelledby="panel1">
+                            <div class="accordion-body">
+                                Umumi Hıfzıssıhha Kanunun 23. Maddesine göre, 16.05.2021 Pazar günü saat 09.00’da Burdur
+                                Valisi Sayın Ali ARSLANTAŞ başkanlığında toplanan İl Umumi Hıfzıssıhha Kurulu tarafından
+                                aşağıdaki kararlar alınmıştır.
+                                <a href="http://www.burdur.gov.tr/16052021-tarih-ve-39-sayili-il-umumihifzissihha-kurul-karari"
+                                    target="_blank" class="d-block text-end">Devamını Oku</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panel2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panel2acilir" aria-expanded="false" aria-controls="panel2acilir">
+                                ÜNİVERSİTE ÖĞRENCİLERİNİN STAJ BAŞVURULARI
+                            </button>
+                        </h2>
+                        <div id="panel2acilir" class="accordion-collapse collapse" aria-labelledby="panel2">
+                            <div class="accordion-body">
+                                27/10/2020 tarihli 31287 sayılı (mükerrer) Resmi Gazete’de Cumhurbaşkanı Kararı olarak
+                                yayımlanarak yürürlüğe giren “2021 Yılı Cumhurbaşkanlığı Yıllık Programı”nın 571.2
+                                sayılı tedbirine istinaden 2021 yılından itibaren üniversite öğrencilerinin staj
+                                başvuruları Staj Seferberliği Projesi Kapsamında Kariyer Kapısı üzerinden alınacaktır.
+                                <a href="https://icisleri.gov.tr/universite-ogrencilerinin-staj-basvurulari"
+                                    target="_blank" class="d-block text-end">Devamını Oku</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panel3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panel3acilir" aria-expanded="false" aria-controls="panel3acilir">
+                                İSDEM (İl İlçe Salgın Denetim Merkezi) UYGULAMASI
+                            </button>
+                        </h2>
+                        <div id="panel3acilir" class="accordion-collapse collapse" aria-labelledby="panel3">
+                            <div class="accordion-body">
+                                Bakanlığımız 81 İl Valiliğine, Covid-19 Tedbirleri Denetimleri konulu genelge gönderdi.
+                                Genelgede, Covid-19 salgınıyla mücadele kapsamında içerisinde bulunulan kontrollü sosyal
+                                hayat döneminde, salgınla mücadelenin genel prensipleri olan temizlik, maske ve mesafe
+                                kurallarının yanı sıra her bir faaliyet alanı/iş kolu için alınması gereken önlemler
+                                ayrı ayrı belirlenerek bu kural ve tedbirler çerçevesinde faaliyetlerin sürdürüldüğü
+                                belirtildi.
+                                <a href="https://www.112.gov.tr/isdem-ililce-salgin-denetim-merkezi-uygulamasi"
+                                    target="_blank" class="d-block text-end">Devamını Oku</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panel4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panel4acilir" aria-expanded="false" aria-controls="panel4acilir">
+                                112 KURUMSAL KİMLİK KILAVUZU
+                            </button>
+                        </h2>
+                        <div id="panel4acilir" class="accordion-collapse collapse" aria-labelledby="panel4">
+                            <div class="accordion-body">
+                                112 Acil Çağrı Merkezi'nin kurum kimliğini oluşturan temel grafik öğelerinin başında
+                                gelir. Kurumsal Logo hiçbir şekilde farklı olarak kullanılmamalıdır.
+                                <a href="https://112.gov.tr/kurumsal-kimlik-kilavuzu" target="_blank"
+                                    class="d-block text-end">Devamını Oku</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Haberler-->
+        <div class="row mt-2 ms-2" style="margin-bottom: 400px;">
+            <div class="card-header text-center fs-4">HABERLER</div>
+            <div class="card-deck row mx-auto">
+                <!--Haber 1-->
+                <div class="card col-md-4 col-sm-6">
+                    <img src="image/haberResim/koordinasyon/1.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">KOORDİNASYON KURULU VALİ ARSLANTAŞ BAŞKANLIĞINDA TOPLANDI
+                        </h5>
+                        <hr>
+                        <p class="card-text">Acil Çağrı Hizmetleri İl Koordinasyon Kurulu Toplantısı Burdur Valisi
+                            Sayın Ali Arslantaş başkanlığında yapıldı. 112 Acil Çağrı Merkezi tarafından, 112 numarası
+                            altında toplanarak tek numara üzerinden yürütülen Acil Çağrı Hizmetleri ile ilgili genel
+                            değerlendirmede bulunularak, kurumlar arası koordinasyonu gerektiren konular görüşüldü.
+                            <a href="haberdetay1.html" class="d-block text-end">Devamını Oku</a>
+                        </p>
+                        <p class="card-text text-end"><small class="text-muted">17 / 02 / 2021 - ÇARŞAMBA</small>
+                        </p>
+                    </div>
+                </div>
+                <!--Haber 2-->
+                <div class="card col-md-4 col-sm-6">
+                    <img src="image/haberResim/112gunu/1.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">11 ŞUBAT 2021 112 GÜNÜ ETKİNLİĞİ<br>(CUMHURİYET MEYDANI)</h5>
+                        <hr>
+                        <p class="card-text"> “112 Günü” kapsamında farkındalığın oluşması için Cumhuriyet Meydanında
+                            açılan stantlarda, 112 Acil Çağrı Merkezine entegre kurumların personelleri saat 10:00 –
+                            14:00 arası hazırlanan 112 tanıtıcı materyallerin dağıtımını yaparak, vatandaşlara 112
+                            konusunda gün boyu bilgi verdiler.
+                            <a href="haberdetay2.html" class="d-block text-end">Devamını Oku</a>
+                        </p><br>
+                        <p class="card-text text-end"><small class="text-muted">11 / 02 / 2021 PERŞEMBE</small></p>
+                    </div>
+                </div>
+                <!--Haber 3-->
+                <div class="card col-md-4 col-sm-6">
+                    <img src="image/haberResim/112gunu2020/1.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">11 ŞUBAT 2020 112 GÜNÜ CUMHURİYET MEYDANINDA KUTLANDI</h5>
+                        <hr>
+                        <p class="card-text">“112 Günü” kapsamında farkındalığın oluşması için Cumhuriyet Meydanında
+                            açılan stantlarda, 112 Acil Çağrı Merkezine entegre kurumların personelleri saat 10:00 –
+                            14:00 arası hazırlanan 112 tanıtıcı materyallerin dağıtımını yaparak, vatandaşlara 112
+                            konusunda gün boyu bilgi verdiler.
+                            <a href="haberdetay3.html" class="d-block text-end">Devamını Oku</a>
+                        </p><br>
+                        <p class="card-text text-end"><small class="text-muted">11 / 02 / 2020 SALI</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--AltAlan-->
+    <footer class="footer bg-secondary fixed-bottom w-100">
+        <div class="container">
+            <div class="row justify-content-center mt-2">
+                <a href="https://icisleri.gov.tr" target="_Blank" class="col"><img class="img-fluid"
+                        src="image/bakanlik.png" alt=""></a>
+                <a href="http://www.burdur.gov.tr/" target="_Blank" class="col"><img class="img-fluid"
+                        src="image/valilik.png" alt=""></a>
+                <a href="https://www.burdur.bel.tr" target="_Blank" class="col"><img class="img-fluid"
+                        src="image/belediye.png" alt=""></a>
+                <a href="http://burdur.pol.tr" target="_Blank" class="col"><img class="img-fluid"
+                        src="image/emniyet.png" alt=""></a>
+                <a href="https://burdur.jandarma.gov.tr" target="_Blank" class="col"><img class="img-fluid"
+                        src="image/jandarma.png" alt=""></a>
+                <a href="https://burdurism.saglik.gov.tr/" target="_Blank" class="col"><img class="img-fluid"
+                        src="image/saglik.png" alt=""></a>
+            </div>
+            <div class="row mt-2 justify-content-center">
+                <a href="https://www.facebook.com/burdur.acm.7" target="_Blank" class="col-1"><img class="img-fluid"
+                        src="image/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/burdur112acm/?hl=tr" target="_Blank" class="col-1"><img
+                        class="img-fluid" src="image/instagram.png" alt=""></a>
+                <a href="https://twitter.com/burdur112acm" target="_Blank" class="col-1"><img class="img-fluid"
+                        src="image/twitter.png" alt=""></a>
+            </div>
+            <div class="row justify-content-center mt-2 text-white text-center">
+                <p class="justify-content-center col-sm-6 col-md-4 "> Bahçelievler Mah. Şehit Kalmaz Cad. No:1 Merkez/Burdur
+                    <br>Tel : 0248 233 34 35
+                    <br>Faks : 0248 233 34 32
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap JavaSicript-->
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
